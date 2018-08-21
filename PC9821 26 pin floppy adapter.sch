@@ -88,8 +88,6 @@ Wire Wire Line
 	1950 4725 4750 4725
 Wire Wire Line
 	4750 4725 4750 5450
-Wire Wire Line
-	4750 5450 3975 5450
 Text Label 3225 4050 2    50   ~ 0
 GND
 Wire Wire Line
@@ -164,4 +162,125 @@ Text Label 3725 3450 0    50   ~ 0
 DRV_SELECT_0
 Text Label 3725 3350 0    50   ~ 0
 INDEX_OUT
+Text Label 6725 3150 2    50   ~ 0
+360_300_DRV_0
+Text Label 6725 3250 2    50   ~ 0
+NC
+Text Label 6725 3350 2    50   ~ 0
+GND
+Wire Wire Line
+	6725 3350 6025 3350
+Wire Wire Line
+	6025 2525 8225 2525
+Wire Wire Line
+	8225 2525 8225 5450
+Wire Wire Line
+	3975 5450 4750 5450
+Connection ~ 4750 5450
+Wire Wire Line
+	4750 5450 8225 5450
+Text Label 6725 3450 2    50   ~ 0
+GND
+Wire Wire Line
+	6725 3450 6025 3450
+Wire Wire Line
+	6025 2525 6025 3350
+Connection ~ 6025 3350
+Wire Wire Line
+	6025 3350 6025 3450
+Text Label 6725 3550 2    50   ~ 0
+GND
+Wire Wire Line
+	6725 3550 6025 3550
+Wire Wire Line
+	6025 3550 6025 3450
+Connection ~ 6025 3450
+Text Label 6725 3650 2    50   ~ 0
+GND
+Text Label 6725 3750 2    50   ~ 0
+GND
+Text Label 6725 3850 2    50   ~ 0
+GND
+Text Label 6725 3950 2    50   ~ 0
+GND
+Text Label 6725 4050 2    50   ~ 0
+GND
+Text Label 6725 4150 2    50   ~ 0
+GND
+Text Label 6725 4250 2    50   ~ 0
+GND
+Text Label 6725 4350 2    50   ~ 0
+GND
+Text Label 6725 4450 2    50   ~ 0
+GND
+Text Label 6725 4550 2    50   ~ 0
+GND
+Text Label 6725 4650 2    50   ~ 0
+GND
+Text Label 6725 4750 2    50   ~ 0
+DISK_CHANGE
+Wire Wire Line
+	6725 3650 6025 3650
+Wire Wire Line
+	6025 3650 6025 3550
+Connection ~ 6025 3550
+Wire Wire Line
+	6725 3750 6025 3750
+Wire Wire Line
+	6025 3750 6025 3650
+Connection ~ 6025 3650
+Wire Wire Line
+	6725 3850 6025 3850
+Wire Wire Line
+	6025 3850 6025 3750
+Connection ~ 6025 3750
+Wire Wire Line
+	6725 3950 6025 3950
+Wire Wire Line
+	6025 3950 6025 3850
+Connection ~ 6025 3850
+Wire Wire Line
+	6725 4050 6025 4050
+Wire Wire Line
+	6025 4050 6025 3950
+Connection ~ 6025 3950
+Wire Wire Line
+	6725 4150 6025 4150
+Wire Wire Line
+	6025 4150 6025 4050
+Connection ~ 6025 4050
+Wire Wire Line
+	6725 4250 6025 4250
+Wire Wire Line
+	6025 4250 6025 4150
+Connection ~ 6025 4150
+Wire Wire Line
+	6725 4350 6025 4350
+Wire Wire Line
+	6025 4350 6025 4250
+Connection ~ 6025 4250
+Wire Wire Line
+	6725 4450 6025 4450
+Wire Wire Line
+	6025 4450 6025 4350
+Connection ~ 6025 4350
+Wire Wire Line
+	6725 4550 6025 4550
+Wire Wire Line
+	6025 4550 6025 4450
+Connection ~ 6025 4450
+Wire Wire Line
+	6725 4650 6025 4650
+Wire Wire Line
+	6025 4650 6025 4550
+Connection ~ 6025 4550
+Wire Wire Line
+	6850 4750 6725 4750
+Wire Wire Line
+	5925 4750 5925 3550
+Wire Wire Line
+	5925 3550 3725 3550
+Connection ~ 6725 4750
+Wire Wire Line
+	6725 4750 5925 4750
 $EndSCHEMATC
