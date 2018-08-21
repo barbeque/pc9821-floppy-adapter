@@ -24,49 +24,12 @@ F 3 "~" H 3425 3950 50  0001 C CNN
 	1    3425 3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x04_Male POWER1
-U 1 1 5B7C4158
-P 3775 5350
-F 0 "POWER1" H 3881 5628 50  0000 C CNN
-F 1 "4 pin male molex power" H 3881 5537 50  0000 C CNN
-F 2 "XESS connector lib:xess-MOLEX-8981-04P" H 3775 5350 50  0001 C CNN
-F 3 "~" H 3775 5350 50  0001 C CNN
-	1    3775 5350
-	1    0    0    -1  
-$EndComp
-Text Label 3975 5250 0    50   ~ 0
-+12V
-Text Label 3975 5350 0    50   ~ 0
-GND
-Text Label 3975 5450 0    50   ~ 0
-GND
-Text Label 3975 5550 0    50   ~ 0
-+5V
 Text Label 3225 3350 2    50   ~ 0
-+5V
-Wire Wire Line
-	3225 3350 1225 3350
-Wire Wire Line
-	1225 3350 1225 3450
-Wire Wire Line
-	1225 7225 3975 7225
-Wire Wire Line
-	3975 7225 3975 5550
++5V_1
 Text Label 3225 3450 2    50   ~ 0
-+5V
-Wire Wire Line
-	3225 3450 1225 3450
-Connection ~ 1225 3450
-Wire Wire Line
-	1225 3450 1225 3550
++5V_2
 Text Label 3225 3550 2    50   ~ 0
-+5V
-Wire Wire Line
-	3225 3550 1225 3550
-Connection ~ 1225 3550
-Wire Wire Line
-	1225 3550 1225 7225
++5V_3
 Text Label 3225 3950 2    50   ~ 0
 GND
 Wire Wire Line
@@ -163,9 +126,6 @@ Wire Wire Line
 	6025 2525 8225 2525
 Wire Wire Line
 	8225 2525 8225 5450
-Wire Wire Line
-	3975 5450 4750 5450
-Connection ~ 4750 5450
 Wire Wire Line
 	4750 5450 8225 5450
 Text Label 6725 3450 2    50   ~ 0
@@ -330,16 +290,6 @@ Wire Wire Line
 Wire Wire Line
 	2075 3750 3225 3750
 Wire Wire Line
-	7225 3650 8075 3650
-Wire Wire Line
-	8075 3650 8075 5300
-Wire Wire Line
-	2125 5300 2125 3650
-Wire Wire Line
-	2125 3650 3225 3650
-Wire Wire Line
-	2125 5300 8075 5300
-Wire Wire Line
 	7225 3450 8075 3450
 Wire Wire Line
 	8075 3450 8075 2800
@@ -475,7 +425,6 @@ Wire Wire Line
 NoConn ~ 6725 3250
 NoConn ~ 7225 3750
 NoConn ~ 7225 3350
-NoConn ~ 3975 5250
 Wire Wire Line
 	6725 3150 6725 2125
 Wire Wire Line
@@ -485,4 +434,14 @@ Wire Wire Line
 Connection ~ 2375 4050
 Wire Wire Line
 	2375 4050 1950 4050
+Wire Wire Line
+	3225 3650 2550 3650
+Wire Wire Line
+	2550 3650 2550 5850
+Wire Wire Line
+	2550 5850 7925 5850
+Wire Wire Line
+	7925 5850 7925 3650
+Wire Wire Line
+	7925 3650 7225 3650
 $EndSCHEMATC
