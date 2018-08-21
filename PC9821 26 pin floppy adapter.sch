@@ -19,7 +19,7 @@ U 1 1 5B7C3D26
 P 3425 3950
 F 0 "PC98-F1" H 3475 4767 50  0000 C CNN
 F 1 "Male 26-pin from floppy cable" H 3475 4676 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Horizontal" H 3425 3950 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical" H 3425 3950 50  0001 C CNN
 F 3 "~" H 3425 3950 50  0001 C CNN
 	1    3425 3950
 	1    0    0    -1  
