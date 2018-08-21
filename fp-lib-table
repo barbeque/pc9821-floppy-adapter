@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Connector_IDC)(type KiCad)(uri ${KIPRJMOD}/Connector_IDC.pretty)(options "")(descr ""))
+  (lib (name "XESS connector lib")(type Github)(uri https://github.com/xesscorp/xess.pretty)(options "")(descr ""))
+)
