@@ -25,17 +25,6 @@ F 3 "~" H 3425 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even GOTEK1
-U 1 1 5B7C3FC0
-P 6925 3950
-F 0 "GOTEK1" H 6975 4967 50  0000 C CNN
-F 1 "34-pin female IDC to Gotek" H 6975 4876 50  0000 C CNN
-F 2 "" H 6925 3950 50  0001 C CNN
-F 3 "~" H 6925 3950 50  0001 C CNN
-	1    6925 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x04_Male POWER1
 U 1 1 5B7C4158
 P 3775 5350
@@ -275,12 +264,212 @@ Wire Wire Line
 	6025 4650 6025 4550
 Connection ~ 6025 4550
 Wire Wire Line
-	6850 4750 6725 4750
-Wire Wire Line
 	5925 4750 5925 3550
 Wire Wire Line
 	5925 3550 3725 3550
-Connection ~ 6725 4750
+Text Label 7225 4750 0    50   ~ 0
+READY_OUT
+Text Label 7225 4650 0    50   ~ 0
+SIDE
+Text Label 7225 4550 0    50   ~ 0
+READ_DATA
+Text Label 7225 4450 0    50   ~ 0
+WRITE_PROTECT
+Text Label 7225 4350 0    50   ~ 0
+TRACK_00
+Text Label 7225 4250 0    50   ~ 0
+WRITE_ENABLE
+Text Label 7225 4150 0    50   ~ 0
+WRITE_DATA
+Text Label 7225 4050 0    50   ~ 0
+STEP_PULSE
+Text Label 7225 3950 0    50   ~ 0
+DIRECTION
+Text Label 7225 3850 0    50   ~ 0
+MOTOR_ON
+Text Label 7225 3750 0    50   ~ 0
+DRV_SELECT_2
+Text Label 7225 3650 0    50   ~ 0
+DRV_SELECT_1
+Text Label 7225 3550 0    50   ~ 0
+DRV_SELECT_0
+Text Label 7225 3450 0    50   ~ 0
+INDEX_OUT
+Text Label 7225 3350 0    50   ~ 0
+DRV_SELECT_3
+Text Label 7225 3250 0    50   ~ 0
+HEAD_LOAD
+Text Label 7225 3150 0    50   ~ 0
+DENSITY
 Wire Wire Line
-	6725 4750 5925 4750
+	7225 3150 8175 3150
+Wire Wire Line
+	8175 3150 8175 5400
+Wire Wire Line
+	8175 5400 4800 5400
+Wire Wire Line
+	4800 5400 4800 4675
+Wire Wire Line
+	4800 4675 2025 4675
+Wire Wire Line
+	2025 4675 2025 3850
+Wire Wire Line
+	2025 3850 3225 3850
+Wire Wire Line
+	7225 3250 8125 3250
+Wire Wire Line
+	8125 3250 8125 5350
+Wire Wire Line
+	8125 5350 4850 5350
+Wire Wire Line
+	4850 5350 4850 4625
+Wire Wire Line
+	4850 4625 2075 4625
+Wire Wire Line
+	2075 4625 2075 3750
+Wire Wire Line
+	2075 3750 3225 3750
+Wire Wire Line
+	7225 3650 8075 3650
+Wire Wire Line
+	8075 3650 8075 5300
+Wire Wire Line
+	2125 5300 2125 3650
+Wire Wire Line
+	2125 3650 3225 3650
+Wire Wire Line
+	2125 5300 8075 5300
+Wire Wire Line
+	7225 3450 8075 3450
+Wire Wire Line
+	8075 3450 8075 2800
+Wire Wire Line
+	8075 2800 4275 2800
+Wire Wire Line
+	4275 2800 4275 3350
+Wire Wire Line
+	4275 3350 3725 3350
+Wire Wire Line
+	3725 3450 5925 3450
+Wire Wire Line
+	5925 3450 5925 2850
+Wire Wire Line
+	5925 2850 8025 2850
+Wire Wire Line
+	8025 2850 8025 3550
+Wire Wire Line
+	8025 3550 7225 3550
+Wire Wire Line
+	3725 3750 4900 3750
+Wire Wire Line
+	4900 3750 4900 5250
+Wire Wire Line
+	4900 5250 8000 5250
+Wire Wire Line
+	8000 5250 8000 3850
+Wire Wire Line
+	8000 3850 7225 3850
+Wire Wire Line
+	7225 3950 7950 3950
+Wire Wire Line
+	7950 3950 7950 5200
+Wire Wire Line
+	7950 5200 4950 5200
+Wire Wire Line
+	4950 5200 4950 3850
+Wire Wire Line
+	4950 3850 3725 3850
+Wire Wire Line
+	3725 3950 5000 3950
+Wire Wire Line
+	5000 3950 5000 5150
+Wire Wire Line
+	5000 5150 7900 5150
+Wire Wire Line
+	7900 5150 7900 4050
+Wire Wire Line
+	7900 4050 7225 4050
+Wire Wire Line
+	3725 4050 5050 4050
+Wire Wire Line
+	5050 4050 5050 5100
+Wire Wire Line
+	5050 5100 7850 5100
+Wire Wire Line
+	7850 5100 7850 4150
+Wire Wire Line
+	7850 4150 7225 4150
+Wire Wire Line
+	3725 4150 5100 4150
+Wire Wire Line
+	5100 4150 5100 5050
+Wire Wire Line
+	5100 5050 7800 5050
+Wire Wire Line
+	7800 5050 7800 4250
+Wire Wire Line
+	7800 4250 7225 4250
+Wire Wire Line
+	3725 4250 5150 4250
+Wire Wire Line
+	5150 4250 5150 5000
+Wire Wire Line
+	5150 5000 7750 5000
+Wire Wire Line
+	7750 5000 7750 4350
+Wire Wire Line
+	7750 4350 7225 4350
+Wire Wire Line
+	3725 4350 5200 4350
+Wire Wire Line
+	5200 4350 5200 4950
+Wire Wire Line
+	5200 4950 7700 4950
+Wire Wire Line
+	7700 4950 7700 4450
+Wire Wire Line
+	7700 4450 7225 4450
+Wire Wire Line
+	3725 4450 5250 4450
+Wire Wire Line
+	5250 4450 5250 4900
+Wire Wire Line
+	5250 4900 7650 4900
+Wire Wire Line
+	7650 4900 7650 4550
+Wire Wire Line
+	7650 4550 7225 4550
+Wire Wire Line
+	3725 4550 5300 4550
+Wire Wire Line
+	5300 4550 5300 4850
+Wire Wire Line
+	5300 4850 7600 4850
+Wire Wire Line
+	7600 4850 7600 4650
+Wire Wire Line
+	7600 4650 7225 4650
+Wire Wire Line
+	3725 3650 5850 3650
+Wire Wire Line
+	5850 3650 5850 4825
+Wire Wire Line
+	5850 4825 7575 4825
+Wire Wire Line
+	7575 4825 7575 4750
+Wire Wire Line
+	7575 4750 7225 4750
+$Comp
+L Connector_Generic:Conn_02x17_Odd_Even GOTEK1
+U 1 1 5B7C3FC0
+P 6925 3950
+F 0 "GOTEK1" H 6975 4967 50  0000 C CNN
+F 1 "34-pin female IDC to Gotek" H 6975 4876 50  0000 C CNN
+F 2 "" H 6925 3950 50  0001 C CNN
+F 3 "~" H 6925 3950 50  0001 C CNN
+	1    6925 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5925 4750 6725 4750
 $EndSCHEMATC
