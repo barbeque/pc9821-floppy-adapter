@@ -6,4 +6,5 @@ This adapter converts the internal 26-pin bus of the PC9821 to support a 34-pin 
 ![Concept render of the v1.2 board](v1.2-concept.png)
 
 ## Links
- * [Schematic](3426CONV.PDF)
+ * [Schematic](3426CONV.pdf) from [cpuparts98](http://www.geocities.jp/cpuparts98/FDD/FDDCABLE/2634CONV.htm)
+ * [Another conversion board](http://triss.blog93.fc2.com/blog-entry-92.html)
