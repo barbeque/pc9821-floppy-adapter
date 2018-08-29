@@ -3,6 +3,8 @@ Some models of NEC PC9821 have a 26-pin "laptop style" floppy connection instead
 
 This adapter converts the internal 26-pin bus of the PC9821 to support a 34-pin IBM PC style drive such as the Gotek.
 
+Note that this is only intended to work on the NEC FD1138T floppy drives; reportedly, the 1138H needs a "VFO board" in order to work.
+
 ![Concept render of the v1.2 board](v1.2-concept.png)
 
 ## Links
