@@ -37,7 +37,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 3950 1950 4050
 Wire Wire Line
-	1950 4725 4750 4725
+	1950 4725 2675 4725
 Wire Wire Line
 	4750 4725 4750 5450
 Text Label 3225 4050 2    50   ~ 0
@@ -444,4 +444,40 @@ Wire Wire Line
 	7925 5850 7925 3650
 Wire Wire Line
 	7925 3650 7225 3650
+$Comp
+L Connector_Generic:Conn_01x04 PWR1
+U 1 1 5B89CFB2
+P 3925 5325
+F 0 "PWR1" H 4004 5317 50  0000 L CNN
+F 1 "Molex 8981 Power Out" H 4004 5226 50  0000 L CNN
+F 2 "XESS connector lib:xess-MOLEX-8981-04P" H 3925 5325 50  0001 C CNN
+F 3 "~" H 3925 5325 50  0001 C CNN
+	1    3925 5325
+	1    0    0    -1  
+$EndComp
+Text Label 3725 5325 2    50   ~ 0
+GND
+Text Label 3725 5425 2    50   ~ 0
+GND
+Text Label 3725 5525 2    50   ~ 0
++5V_OUT
+NoConn ~ 3725 5225
+Wire Wire Line
+	3725 5325 2675 5325
+Connection ~ 2675 4725
+Wire Wire Line
+	2675 4725 4750 4725
+Wire Wire Line
+	3725 5425 2675 5425
+Wire Wire Line
+	2675 4725 2675 5325
+Connection ~ 2675 5325
+Wire Wire Line
+	2675 5325 2675 5425
+Wire Wire Line
+	3725 5525 1675 5525
+Wire Wire Line
+	1675 5525 1675 3350
+Wire Wire Line
+	1675 3350 3225 3350
 $EndSCHEMATC
