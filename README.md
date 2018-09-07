@@ -10,3 +10,4 @@ Note that this is only intended to work on the NEC FD1138T floppy drives; report
 ## Links
  * [Schematic](3426CONV.pdf) from [cpuparts98](http://www.geocities.jp/cpuparts98/FDD/FDDCABLE/2634CONV.htm)
  * [Another conversion board](http://triss.blog93.fc2.com/blog-entry-92.html)
+ * [Conversion details](https://github.com/keirf/FlashFloppy/wiki/Host-Platforms#nec-pc-98) from the FlashFloppy wiki
