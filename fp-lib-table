@@ -2,4 +2,5 @@
   (lib (name Connector_IDC)(type KiCad)(uri ${KIPRJMOD}/Connector_IDC.pretty)(options "")(descr ""))
   (lib (name "XESS connector lib")(type Github)(uri https://github.com/xesscorp/xess.pretty)(options "")(descr ""))
   (lib (name Logos)(type KiCad)(uri ${KIPRJMOD}/Logos.pretty)(options "")(descr ""))
+  (lib (name 7709971)(type KiCad)(uri ${KIPRJMOD}/7709971.pretty)(options "")(descr ""))
 )
