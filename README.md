@@ -12,6 +12,11 @@ Note that this is only intended to work on the NEC FD1138T floppy drives; report
 Confirmed working in:
  * PC9821AP2/U8W
 
+## Bill of Materials
+ * TE AMP 770997-1 "Molex" style female connector [770997-1-ND](https://www.digikey.ca/product-detail/en/te-connectivity-amp-connectors/770997-1/770997-1-ND/240923)
+ * 0.100" 26-pin right-angle male IDC header [1175-1619-ND](https://www.digikey.ca/product-detail/en/cnc-tech/3020-26-0200-00/1175-1619-ND/3441749)
+ * 0.100" 34-pin right-angle female IDC header [S9207-ND](https://www.digikey.ca/product-detail/en/sullins-connector-solutions/SFH11-PBPC-D17-RA-BK/S9207-ND/1990100)
+
 ## Links
  * [Schematic](3426CONV.pdf) from [cpuparts98](http://www.geocities.jp/cpuparts98/FDD/FDDCABLE/2634CONV.htm)
  * [Another conversion board](http://triss.blog93.fc2.com/blog-entry-92.html)
