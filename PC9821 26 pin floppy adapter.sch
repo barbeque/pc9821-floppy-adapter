@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:PC9821 26 pin floppy adapter-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -429,8 +428,6 @@ NoConn ~ 7225 3350
 Wire Wire Line
 	6725 3150 6725 2125
 Wire Wire Line
-	6725 2125 2375 2125
-Wire Wire Line
 	2375 2125 2375 4050
 Connection ~ 2375 4050
 Wire Wire Line
@@ -478,7 +475,34 @@ Wire Wire Line
 Wire Wire Line
 	3725 5525 1675 5525
 Wire Wire Line
-	1675 5525 1675 3350
+	1675 5525 1675 3550
 Wire Wire Line
 	1675 3350 3225 3350
+Text Label 6025 2525 0    50   ~ 0
+GND
+$Comp
+L Device:Jumper_NC_Small JP1
+U 1 1 61F57564
+P 6475 2125
+F 0 "JP1" H 6475 2337 50  0000 C CNN
+F 1 "300/360 control" H 6475 2246 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" H 6475 2125 50  0001 C CNN
+F 3 "~" H 6475 2125 50  0001 C CNN
+	1    6475 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6725 2125 6575 2125
+Wire Wire Line
+	6375 2125 2375 2125
+Wire Wire Line
+	3225 3450 1675 3450
+Connection ~ 1675 3450
+Wire Wire Line
+	1675 3450 1675 3350
+Wire Wire Line
+	3225 3550 1675 3550
+Connection ~ 1675 3550
+Wire Wire Line
+	1675 3550 1675 3450
 $EndSCHEMATC
