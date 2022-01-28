@@ -414,8 +414,8 @@ L Connector_Generic:Conn_02x17_Odd_Even GOTEK1
 U 1 1 5B7C3FC0
 P 6925 3950
 F 0 "GOTEK1" H 6975 4967 50  0000 C CNN
-F 1 "34-pin female IDC to Gotek" H 6975 4876 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x17_P2.54mm_Horizontal" H 6925 3950 50  0001 C CNN
+F 1 "34-pin female IDC to standard PC floppy cable" H 6975 4876 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x17_P2.54mm_Vertical" H 6925 3950 50  0001 C CNN
 F 3 "~" H 6925 3950 50  0001 C CNN
 	1    6925 3950
 	1    0    0    -1  
